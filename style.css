@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    
+}
+
+.header {
+    background-color: rgb(72, 97, 119); 
+    width: 100%;
+    padding: 20px;
+
+    position: sticky;
+    top: 0;
+
+   
+}
+/*Corpo do site */
+body {
+    background-color: rgb(78, 106, 131); 
+    font-family: Gill Sans, sans-serif;
+}
+
+/*Card do pokémon */
+#Card {
+
+    /**/
+
+    background-color: rgb(214, 214, 214);
+    padding: 40px;
+    border: 10px solid rgb(112, 111, 111);
+    border-radius: 50px;
+
+
+
+    text-align: center;
+    
+
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;   
+    margin-bottom: 200px;
+}
+
+/*Região interna */
+.Pkmn {
+
+    background-color: rgb(163, 63, 45);
+
+    border: 10px solid rgb(133, 53, 38);
+    border-radius: 50px;
+}
+
+
+#txtnum::-webkit-inner-spin-button,
+#txtnum::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#footer {
+    text-align: center;
+}

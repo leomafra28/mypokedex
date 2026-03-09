@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPokedex</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style></style>
+</head>
+
+<body></body>
+
+    <header class="header">
+        <img src="/Images/Icons/MyPokedexLogo.png">
+    </header>
+
+
+    <main id="Card">
+        <h2>Bem-Vindo ao projeto de Pokedex HTML</h2>
+
+        <div class="pesquisa">
+            <input type="number" id="txtnum">
+            <input type="button" value="Procurar" onclick="buscar()">
+        </div>
+
+        <section class="Pkmn">
+            
+            <img id="pokemonImg" src="/Images/Pokémon/pk (0).png" alt="">
+
+            <h3 id="nome">Pokémon</h3>
+            <h4 id="num">000#</h4>
+            <p id="desc">...</p>
+
+            <input type="button" value="anterior" onclick="menos()">
+            <input type="button" value="próximo" onclick="mais()">
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+
+
+
+    <footer>
+    <div id="footer">
+        <p>
+            Este é um site feito por fã com fins educacionais!!!
+            Todo o direito vai à Nintendo/Creatures Inc./Gamefreak Inc.
+        </p>
+         <a href="https://www.pokemon.com/br">Site oficial Pokémon</a>
+
+        <p>© 2026 — MyPokedex</p>
+    </div>
+</footer>
+</body>
+</html>
