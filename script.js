@@ -263,11 +263,11 @@ function atualizarinfo () {
 
     if (dexnumber >= 1 && dexnumber <= 151) {
         nome.innerHTML = pokedex[dexnumber - 1] // mudar o nome do pokémon de acordo com o número da variável 'dexnumber'
-        pokemonimg.src = `/Images/${shiny}/pk (${numerostring}).png` //Troca a imagem do pokémon
+        pokemonimg.src = `Images/${shiny}/pk (${numerostring}).png` //Troca a imagem do pokémon
         desc.innerHTML = `${descricoes[dexnumber - 1]}`
     } else {
         nome.innerHTML = 'Não descoberto'
-        pokemonimg.src = '/Images/Icons/Missingno_image.png'
+        pokemonimg.src = 'Images/Icons/Missingno_image.png'
         desc.innerHTML = 'Estamos pesquisando mais sobre outros pokémon.'
     }
 }
